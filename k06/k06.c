@@ -92,6 +92,7 @@ for(i=1;i<=items;i++){
         }
     }
 }
+
 printf("最大取得可能カロリー : %d\n", nap_value[items][nap_size]);
 }
 
