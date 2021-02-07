@@ -75,7 +75,7 @@ void DynamicProgLimited(Menu arrayItem[], int items, int nap_size)
 int i,j,k;
 
 for(i=0;i<=items;i++){
-    for(j=0;j=nap_size;j++){
+    for(j=0;j<=nap_size;j++){
         nap_value[i][j]=0;
     }
 }
@@ -92,7 +92,6 @@ for(i=1;i<=items;i++){
         }
     }
 }
-
 printf("最大取得可能カロリー : %d\n", nap_value[items][nap_size]);
 }
 
